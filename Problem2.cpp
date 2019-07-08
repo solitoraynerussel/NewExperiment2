@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-	double PrevMonthBill, RecMonthBill, WaterBillTotal, Gallons;
-	int WaterDemand = 35, ConsumptionCharge = 1.10, LateFee = 20;
+	double PrevMonthBill, RecMonthBill, WaterBillTotal, Gallons, ConsumptionCharge = 1.10;
+	int WaterDemand = 35, LateFee = 20;
 	
 	cout << "WATER BILL CALCULATOR!" << endl << endl;
 	
